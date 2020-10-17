@@ -1,6 +1,5 @@
 # colephillips.info
 
----
 
 Created using the [Ghost](http://ghost.org) framework
 
