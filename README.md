@@ -1,2 +1,2 @@
 # colephillips.info
-My Blod
+My Blog
