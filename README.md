@@ -29,9 +29,17 @@ Create a docs folder inside the theme you are using. For this example, I am usin
 
 `/current/content/themes/casper`
 
+To verify the port number ghost is using, use `ghost ls`:
+
+┌───────────────┬───────────────────────────────┬─────────┬───────────────────────┬────────────────────────┬──────┬─────────────────┐
+│ Name          │ Location                      │ Version │ Status                │ URL                    │ Port │ Process Manager │
+├───────────────┼───────────────────────────────┼─────────┼───────────────────────┼────────────────────────┼──────┼─────────────────┤
+│ ghost-local-1 │ ~/Documents/colephillips.info │ 3.35.5  │ running (development) │ http://localhost:2370/ │ 2370 │ local           │
+└───────────────┴───────────────────────────────┴─────────┴───────────────────────┴────────────────────────┴──────┴─────────────────┘
+
 `wget -r -nH -P docs -E -T 2 -np -k http://localhost:2370/`
 
 
-The docs folder will now have the static content for github. Copy the docs folder to your master branch
+After running the `wget` coommand, the docs folder will now have the static content for github. Copy the docs folder to your master branch
 
 
